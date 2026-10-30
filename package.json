@@ -2,6 +2,6 @@
   "name": "marketing-project",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node --env-file=.env server.mjs", "test": "node --test" },
+  "scripts": { "start": "node --env-file=.env server.mjs", "test": "node --test", "stt": ".venv\\Scripts\\python stt_server.py" },
   "engines": { "node": ">=22" }
 }
